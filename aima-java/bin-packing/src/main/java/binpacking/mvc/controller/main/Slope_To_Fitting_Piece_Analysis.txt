@@ -1,0 +1,17 @@
+The following slopes can be used the fit a piece in the given set [slope sequence - piece(rotation)]:
+
+-inf-+inf - {I1}
+-2        - {L1}
+-1        - {S1, T1}
+-1-1      - {T0}
+-10       - {Z0}
+0-1       - {J0}
+0         - {O, L3, J1}
+00        - {L2, J2, T2}
+000       - {I0}
+01        - {S0}
+1         - {Z1, T3}
+10        - {L0}
+2         - {J3}
+
+ 
