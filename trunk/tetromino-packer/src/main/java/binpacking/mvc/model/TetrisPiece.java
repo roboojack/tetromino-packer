@@ -76,11 +76,6 @@ public class TetrisPiece {
         public static final byte O_PIECE = 5;
         public static final byte T_PIECE = 6;
 
-//        public static final byte LEFT = 10;
-//        public static final byte RIGHT = 11;
-//        public static final byte ROTATE = 12;
-//        public static final byte DOWN = 13;
-//        public static final byte FALL = 14;
 
 	private byte fType;
 	private byte fRotation;
@@ -88,7 +83,6 @@ public class TetrisPiece {
 	private Point fCentrePoint;
 	private Point[] fBlocks;
 
-	// private TetrisBoard fBoard;
 
 	/**
 	 * Create a TetrisPiece object.
@@ -115,7 +109,6 @@ public class TetrisPiece {
 		fBlocks = new Point[4];
 		fCentrePoint = new Point();
 		fType = type;
-		// fBoard = board;
 		initializeBlocks();
 	}
 
