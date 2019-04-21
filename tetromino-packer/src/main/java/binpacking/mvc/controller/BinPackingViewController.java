@@ -2,7 +2,6 @@ package binpacking.mvc.controller;
 
 import java.awt.event.ActionEvent;
 
-import org.apache.log4j.Logger;
 
 import binpacking.mvc.controller.main.BinPackingAStar;
 import binpacking.mvc.controller.main.BinPackingBFS;
@@ -15,13 +14,15 @@ import binpacking.mvc.controller.main.BinPackingSimulatedAnnealing;
 import binpacking.mvc.model.StartStateProperties;
 import binpacking.mvc.model.TetrisBoard;
 import binpacking.mvc.view.BinPackingView;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  *
  * @author Robert Jackson
  */
 public class BinPackingViewController {
-	static final Logger LOG = Logger.getLogger(TetrisBoard.class);
+	static final Logger LOG = LoggerFactory.getLogger(TetrisBoard.class);
 
 
 	

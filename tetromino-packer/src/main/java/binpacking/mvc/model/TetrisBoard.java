@@ -5,13 +5,14 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Vector;
-import org.apache.log4j.Logger;
 
-import cern.colt.matrix.tobject.impl.SparseObjectMatrix2D;
+import cern.colt.matrix.impl.SparseObjectMatrix2D;
 
 import aima.core.util.datastructure.XYLocation;
 import binpacking.mvc.view.BinPackingView;
 import binpacking.mvc.view.TetrisBoardView;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * A generic Tetris board with no GUI.
@@ -20,7 +21,7 @@ import binpacking.mvc.view.TetrisBoardView;
  * @author Robert Jackson
  */
 public class TetrisBoard {
-	static final Logger LOG = Logger.getLogger(TetrisBoard.class);
+	static final Logger LOG = LoggerFactory.getLogger(TetrisBoard.class);
 	// static {
 	// BasicConfigurator.configure();
 	// }
