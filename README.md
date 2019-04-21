@@ -10,7 +10,7 @@
 
 Tree Search Implementations
 
-###How can we use Tree Search Algorithms to figure out Tetris?
+### How can we use Tree Search Algorithms to figure out Tetris?
 There are many great Generalized Tree Search Algorithms that can be used
 to solve this problem!
 
@@ -27,14 +27,13 @@ In this application we'll implement:
 - Greedy Best First Search
 
 
-
-
 ![Tree Search for Bin Packing](docs/treeBuildingGraphic.png)
 
-###GUI Screenshot
+### GUI Screenshot
 ![Screenshot](docs/Screenshot from 2019-04-21 13-10-31.png)
 
-###Running
+
+### Running
 To run the application just clone or download the zip and run
 this in the command line:
 
