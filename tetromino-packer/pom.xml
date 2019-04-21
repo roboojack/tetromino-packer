@@ -12,7 +12,7 @@
     <artifactId>tetromino-packer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>tetromino-packer</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Various tree search algorithms for packing tetrominos</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -22,6 +22,16 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jdesktop</groupId>
+            <artifactId>appframework</artifactId>
+            <version>1.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.aima-java</groupId>
+            <artifactId>aima-core</artifactId>
+            <version>0.10.5</version>
         </dependency>
 
         <dependency>
@@ -33,6 +43,17 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <configuration>
+                    <mainClass>com.example.Main</mainClass>
+                    <arguments>
+                        <argument>argument1</argument>
+                    </arguments>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
