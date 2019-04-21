@@ -1,7 +1,7 @@
-# Getting Started
+## Overview
 
-### Reference Documentation
-For further reference, please consider the following sections:
+Tree Search Implementation for Bin Packing
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
+[![Tree Search for Bin Packing](/docs/treeBuildingGraphic.png)]
 
+[![Screenshot](/docs/Screenshot from 2019-04-21 13-10-31.png)]
