@@ -68,6 +68,7 @@
                     <mainClass>binpacking.mvc.controller.main.BinPackingApp</mainClass>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 

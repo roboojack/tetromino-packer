@@ -158,43 +158,43 @@ public class BinPackingView extends FrameView {
 
 		oIcon.setIcon(new ImageIcon(
 				BinPackingView.class
-						.getResource("/binpacking/mvc/view/resources/39px-Tetromino_O.svg.png"))); // NOI18N
+						.getResource("/39px-Tetromino_O.svg.png"))); // NOI18N
 		oIcon.setText(resourceMap.getString("oIcon.text")); // NOI18N
 		oIcon.setName("oIcon"); // NOI18N
 
 		zIcon.setIcon(new ImageIcon(
 				BinPackingView.class
-						.getResource("/binpacking/mvc/view/resources/53px-Tetromino_Z.svg.png"))); // NOI18N
+						.getResource("/53px-Tetromino_Z.svg.png"))); // NOI18N
 		zIcon.setText(resourceMap.getString("zIcon.text")); // NOI18N
 		zIcon.setName("zIcon"); // NOI18N
 
 		jIcon.setIcon(new ImageIcon(
 				BinPackingView.class
-						.getResource("/binpacking/mvc/view/resources/54px-Tetromino_J.svg.png"))); // NOI18N
+						.getResource("/54px-Tetromino_J.svg.png"))); // NOI18N
 		jIcon.setText(resourceMap.getString("jIcon.text")); // NOI18N
 		jIcon.setName("jIcon"); // NOI18N
 
 		tIcon.setIcon(new ImageIcon(
 				BinPackingView.class
-						.getResource("/binpacking/mvc/view/resources/54px-Tetromino_T.svg.png"))); // NOI18N
+						.getResource("/54px-Tetromino_T.svg.png"))); // NOI18N
 		tIcon.setText(resourceMap.getString("tIcon.text")); // NOI18N
 		tIcon.setName("tIcon"); // NOI18N
 
 		lIcon.setIcon(new ImageIcon(
 				BinPackingView.class
-						.getResource("/binpacking/mvc/view/resources/56px-Tetromino_L.svg.png"))); // NOI18N
+						.getResource("/56px-Tetromino_L.svg.png"))); // NOI18N
 		lIcon.setText(resourceMap.getString("lIcon.text")); // NOI18N
 		lIcon.setName("lIcon"); // NOI18N
 
 		sIcon.setIcon(new ImageIcon(
 				BinPackingView.class
-						.getResource("/binpacking/mvc/view/resources/56px-Tetromino_S.svg.png"))); // NOI18N
+						.getResource("/56px-Tetromino_S.svg.png"))); // NOI18N
 		sIcon.setText(resourceMap.getString("sIcon.text")); // NOI18N
 		sIcon.setName("sIcon"); // NOI18N
 
 		iIcon.setIcon(new ImageIcon(
 				BinPackingView.class
-						.getResource("/binpacking/mvc/view/resources/71px-Tetromino_I.svg.png"))); // NOI18N
+						.getResource("/71px-Tetromino_I.svg.png"))); // NOI18N
 		iIcon.setText(resourceMap.getString("iIcon.text")); // NOI18N
 		iIcon.setName("iIcon"); // NOI18N
 		boardWidth.setText("Bin Width"); // NOI18N

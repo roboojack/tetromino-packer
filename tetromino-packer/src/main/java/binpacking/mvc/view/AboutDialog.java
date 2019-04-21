@@ -7,7 +7,6 @@ import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JLabel;
 import javax.swing.ImageIcon;
@@ -43,7 +42,7 @@ public class AboutDialog extends JDialog {
 		{
 			JLabel lblNewLabel = new JLabel("");
 			lblNewLabel.setBounds(12, 122, 45, 40);
-			lblNewLabel.setIcon(new ImageIcon(AboutDialog.class.getResource("/binpacking/mvc/view/resources/39px-Tetromino_O.svg.png")));
+			lblNewLabel.setIcon(new ImageIcon(AboutDialog.class.getResource("/39px-Tetromino_O.svg.png")));
 			contentPanel.add(lblNewLabel);
 		}
 		{
@@ -54,19 +53,19 @@ public class AboutDialog extends JDialog {
 		}
 		{
 			JLabel label = new JLabel("");
-			label.setIcon(new ImageIcon(AboutDialog.class.getResource("/binpacking/mvc/view/resources/53px-Tetromino_Z.svg.png")));
+			label.setIcon(new ImageIcon(AboutDialog.class.getResource("/53px-Tetromino_Z.svg.png")));
 			label.setBounds(12, 176, 45, 40);
 			contentPanel.add(label);
 		}
 		{
 			JLabel label = new JLabel("");
-			label.setIcon(new ImageIcon(AboutDialog.class.getResource("/binpacking/mvc/view/resources/54px-Tetromino_T.svg.png")));
+			label.setIcon(new ImageIcon(AboutDialog.class.getResource("/54px-Tetromino_T.svg.png")));
 			label.setBounds(12, 68, 45, 40);
 			contentPanel.add(label);
 		}
 		{
 			JLabel label = new JLabel("");
-			label.setIcon(new ImageIcon(AboutDialog.class.getResource("/binpacking/mvc/view/resources/56px-Tetromino_S.svg.png")));
+			label.setIcon(new ImageIcon(AboutDialog.class.getResource("/56px-Tetromino_S.svg.png")));
 			label.setBounds(12, 14, 45, 40);
 			contentPanel.add(label);
 		}
