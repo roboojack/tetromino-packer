@@ -20,6 +20,7 @@ to solve this problem!
 
 In this application we'll implement:
 
+
 - Depth First Search
 - Breadth First Search
 - Depth First Search
@@ -34,7 +35,7 @@ In this application we'll implement:
 
 ### GUI Screenshot
 
-![Screenshot](docs/Screenshot from 2019-04-21 13-10-31.png)
+![Screenshot](docs/appScreenShot.png)
 
 You can plugin how many of each shape you want to put in the board, select an algorithm
 and the app will do search to find a solution. At the end, if prints the location of the 
@@ -42,7 +43,7 @@ pieces for the solution.
 
 ### Performance Trends
 
-![Screenshot](docs/Screenshot from 2019-04-21 13-53-00.png)
+![Screenshot](docs/performanceGraph.png)
 
 
 ### Running
