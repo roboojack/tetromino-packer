@@ -8,7 +8,7 @@
         <version>2.1.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>edu,uwf</groupId>
+    <groupId>edu.uwf</groupId>
     <artifactId>tetromino-packer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>tetromino-packer</name>
@@ -33,6 +33,17 @@
             <artifactId>aima-core</artifactId>
             <version>0.10.5</version>
         </dependency>
+        <dependency>
+            <groupId>colt</groupId>
+            <artifactId>colt</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -48,10 +59,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.2.1</version>
                 <configuration>
-                    <mainClass>com.example.Main</mainClass>
-                    <arguments>
-                        <argument>argument1</argument>
-                    </arguments>
+                    <mainClass>binpacking.mvc.controller.main.BinPackingApp.</mainClass>
                 </configuration>
             </plugin>
             <plugin>
